@@ -182,10 +182,12 @@ This project is licensed under the **MIT License** — see [LICENSE](LICENSE) fo
 
 ## 💡 Acknowledgments
 
-- **Tailscale:** for a simple and secure VPN  
+- **Tailscale:** for a simple and secure VPN 
+https://tailscale.com/
 - **RustDesk:** for an open-source remote desktop  
-- **xAI / Grok:** for assisting in development and debugging  
-
+https://rustdesk.com/pt/
+- **AI / Grok:** for assisting in development and debugging  
+https://grok.com/
 ---
 
 **Made with ❤️ by SipCorp**  
