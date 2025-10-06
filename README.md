@@ -43,7 +43,7 @@ git clone https://github.com/killsystema/SipCorp-TailRust-Setup.git
 cd SipCorp-TailRust-Setup
 ```
 
-### 2. Configure Credentials (Optional)
+### 2. Configure Credentials 
 Edit the file **SipCorp-TailRust-Setup.ps1** and update the function `Initialize-CredentialFile` with:
 
 - `TailscaleKey` – Tailscale authentication key  
