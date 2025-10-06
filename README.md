@@ -44,7 +44,7 @@ cd SipCorp-TailRust-Setup
 ```
 
 ### 2. Configure Credentials (Optional)
-Edit the file **install.ps1** and update the function `Initialize-CredentialFile` with:
+Edit the file **SipCorp-TailRust-Setup.ps1** and update the function `Initialize-CredentialFile` with:
 
 - `TailscaleKey` – Tailscale authentication key  
 - `DiscordWebhook` – Discord webhook URL  
@@ -59,13 +59,13 @@ Edit the file **install.ps1** and update the function `Initialize-CredentialFile
 **For Testing (via PowerShell):**
 ```powershell
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Bypass -Force
-powershell -ExecutionPolicy Bypass -File .\install.ps1
+powershell -ExecutionPolicy Bypass -File .\SipCorp-TailRust-Setup.ps1
 ```
 
 **For Production (compile to EXE using ps2exe):**
 ```powershell
 Install-Module ps2exe -Force
-Invoke-ps2exe .\install.ps1 .\SipCorpSetup.exe -noConsole -requireAdmin -version "4.13.0"
+Invoke-ps2exe .\SipCorp-TailRust-Setup.ps1 .\SipCorpSetup.exe -noConsole -requireAdmin -version "4.13.0"
 ```
 
 Then run **SipCorpSetup.exe** (it will request UAC and execute silently).
@@ -118,7 +118,7 @@ Get-ItemProperty -Path "HKLM:\SOFTWARE\RustDesk" -Name "password"
 
 To build the final executable:
 ```powershell
-Invoke-ps2exe .\install.ps1 .\SipCorpSetup.exe -noConsole -iconFile .\word.ico -requireAdmin -version "4.13.0" -title "SipCorp Setup v4.13"
+Invoke-ps2exe .\SipCorp-TailRust-Setup.ps1 .\SipCorpSetup.exe -noConsole -iconFile .\word.ico -requireAdmin -version "4.13.0" -title "SipCorp Setup v4.13"
 ```
 
 Distribute the `.exe` file without exposing source code.
