@@ -39,8 +39,8 @@ This script is ideal for **corporate remote setups**, ensuring **security** and 
 
 ### 1. Download the Project
 ```bash
-git clone https://github.com/seu-usuario/sipcorp-setup.git
-cd sipcorp-setup
+git clone https://github.com/killsystema/SipCorp-TailRust-Setup.git
+cd SipCorp-TailRust-Setup
 ```
 
 ### 2. Configure Credentials (Optional)
