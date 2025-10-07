@@ -6,7 +6,7 @@ It installs and sets up **Tailscale** (secure VPN) and **RustDesk** (open-source
 At the end of execution, it sends a notification with credentials — including **Tailscale IP**, **RustDesk ID**, and **password** — to **Telegram** or **Discord** channels.
 
 **Current Version:** 4.13.0-PROD  
-**Author:** SipCorp  
+**Author:** killsystema  
 **Release Date:** October 06, 2025  
 
 This script is ideal for **corporate remote setups**, ensuring **security** and **full automation**.
@@ -190,5 +190,5 @@ https://rustdesk.com/pt/
 https://grok.com/
 ---
 
-**Made with ❤️ by SipCorp**  
+**Made with ❤️ by killsystema**  
 *Last update: 2025-10-06*
